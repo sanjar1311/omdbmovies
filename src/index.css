@@ -11,3 +11,59 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.nav {
+  padding: 0 50px;
+}
+
+.filter {
+  max-width: 80vw !important;
+  margin: 20px auto;
+}
+
+.search__btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.filter__radio-btn {
+  margin-right: 20px;
+}
+
+.loader {
+  max-width: 80vw; 
+  margin: 20px auto;
+}
+
+.movies {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 30px;
+}
+
+.movie {
+  max-width: 320px;
+  padding: 10px;
+  box-shadow: 0 0 15px 5px #ddd;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  margin: 15px;
+}
+
+.movie__info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
